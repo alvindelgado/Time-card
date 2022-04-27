@@ -1,0 +1,29 @@
+.Card1 {
+    background: var(--Light-red-work);
+    width: 80%;
+    margin: 0 auto;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .Card1 {
+        margin-top: 40%;
+        height: 60%;
+    }
+}
+
+.Work-img {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10px;
+    padding-right: 17px;
+}
+
+@media (min-width: 1440px) {
+    .Card1 {
+        height: 56%;
+    }
+}

@@ -1,0 +1,24 @@
+.Card5 {
+    background: var(--Violet-social);
+    width: 80%;
+    margin: 0 auto;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+    .Card5 {
+        height: 60%;
+        margin-bottom: 60px;
+    }
+}
+
+.Work-img {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10px;
+    padding-right: 17px;
+}

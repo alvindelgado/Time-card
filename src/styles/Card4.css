@@ -1,0 +1,24 @@
+.Card4 {
+    background: var(--Lime-green-exercise-);
+    width: 80%;
+    margin: 0 auto;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+    .Card4 {
+        height: 60%;
+        margin-bottom: 60px;
+    }
+}
+
+.Work-img-exercise {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 0px;
+    padding-right: 17px;
+}
