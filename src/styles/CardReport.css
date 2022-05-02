@@ -2,7 +2,6 @@
     background-color: var(--Dark-blue);
     display: flex;
     flex-direction: column;
-    width: 80%;
     margin: 10px auto;
     border-radius: 10px;
 }
@@ -20,8 +19,8 @@
 
 @media (min-width: 1024px) {
     .Cardreport {
-        width: 90%;
-        margin-top: 40%;
+        margin: 0;
+        width: 100%;
     }
     .bottom {
         flex-direction: column;
