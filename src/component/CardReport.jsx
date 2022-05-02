@@ -6,6 +6,7 @@ function CardReport() {
   return (
     <div className='Cardreport'>
       <CardReportTop/>
+    
     <div className='bottom'>
       <span>Daily</span>
       <span>Weekly</span>

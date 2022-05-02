@@ -1,10 +1,33 @@
 .Card1 {
-    background: var(--Light-red-work);
     width: 80%;
     margin: 0 auto;
     height: 70%;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.back-work {
+    background: var(--Light-red-work);
+}
+
+.back-play {
+    background: var(--Soft-blue-play);
+}
+
+.back-study {
+    background: var(--Light-red-study);
+}
+
+.back-exercise {
+    background: var(--Lime-green-exercise-);
+}
+
+.back-social {
+    background: var(--Violet-social);
+}
+
+.back-self {
+    background: var(--Soft-orange-self-care);
 }
 
 @media (min-width: 1024px) {

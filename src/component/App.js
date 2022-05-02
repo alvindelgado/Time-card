@@ -1,22 +1,20 @@
 import { CardReport } from './CardReport';
 import { Card1 } from './Card1';
-import { Card2 } from './Card2';
-import { Card3 } from './Card3';
-import { Card4 } from './Card4';
-import { Card5 } from './Card5';
-import { Card6 } from './Card6';
 import '../styles/App.css';
-function App() {
+function App(props) {
+  const list=props.list
     return (
       <div className='App'>
          <CardReport/>
-        <Card1/>
-        <Card2/>
-        <Card3/>
-        <Card4/>
-        <Card5/>
-        <Card6/>
-        
+         {list.map((cartas)=>
+         <Card1 
+         key={cartas.id} 
+         hobby={cartas.hobby} 
+         hour={cartas.hour} 
+         last={cartas.last} 
+         theme={cartas.theme}
+         imagenes={cartas.img}
+         />)}   
       </div>
        
         
